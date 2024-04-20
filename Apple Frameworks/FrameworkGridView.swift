@@ -17,6 +17,9 @@ struct FrameworkGridView: View {
                 LazyVGrid (columns: columns) {
                     ForEach(MockData.frameworks) { frameWork in
                         FrameworkTitleView(framework: frameWork)
+                            .onTapGesture {
+                                
+                            }
                     }
                 }
             }

@@ -9,5 +9,8 @@ import SwiftUI
 
 class FrameworkGridViewModel: ObservableObject {
     
+    @StateObject var viewModel = FrameworkGridViewModel()
+    
+    var selectedFramework: Framework?
     
 }
