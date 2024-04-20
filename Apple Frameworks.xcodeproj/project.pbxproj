@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3871574E2BD3ED4A00C5D41B /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3871574D2BD3ED4A00C5D41B /* FrameworkGridViewModel.swift */; };
 		38A6700E2BD2EF650053BC54 /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A6700D2BD2EF650053BC54 /* FrameworkDetailView.swift */; };
 		38E2BD1C2BD1A86C00494451 /* Apple_FrameworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E2BD1B2BD1A86C00494451 /* Apple_FrameworksApp.swift */; };
 		38E2BD1E2BD1A86C00494451 /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E2BD1D2BD1A86C00494451 /* FrameworkGridView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3871574D2BD3ED4A00C5D41B /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
 		38A6700D2BD2EF650053BC54 /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
 		38E2BD182BD1A86C00494451 /* Apple Frameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Frameworks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E2BD1B2BD1A86C00494451 /* Apple_FrameworksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_FrameworksApp.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				38E2BD212BD1A86D00494451 /* Preview Content */,
 				38E2BD292BD1A88F00494451 /* Framework.swift */,
 				38A6700D2BD2EF650053BC54 /* FrameworkDetailView.swift */,
+				3871574D2BD3ED4A00C5D41B /* FrameworkGridViewModel.swift */,
 			);
 			path = "Apple Frameworks";
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3871574E2BD3ED4A00C5D41B /* FrameworkGridViewModel.swift in Sources */,
 				38A6700E2BD2EF650053BC54 /* FrameworkDetailView.swift in Sources */,
 				38E2BD1E2BD1A86C00494451 /* FrameworkGridView.swift in Sources */,
 				38E2BD2A2BD1A88F00494451 /* Framework.swift in Sources */,
