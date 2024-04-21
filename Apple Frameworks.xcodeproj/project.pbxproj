@@ -38,6 +38,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3881BE3E2BD517B8006E111F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				38E2BD1D2BD1A86C00494451 /* FrameworkGridView.swift */,
+				38A6700D2BD2EF650053BC54 /* FrameworkDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3881BE3F2BD517CE006E111F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3871574D2BD3ED4A00C5D41B /* FrameworkGridViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3881BE402BD517E9006E111F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				38E2BD292BD1A88F00494451 /* Framework.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		38E2BD0F2BD1A86C00494451 = {
 			isa = PBXGroup;
 			children = (
@@ -57,13 +82,12 @@
 		38E2BD1A2BD1A86C00494451 /* Apple Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3881BE402BD517E9006E111F /* Model */,
+				3881BE3F2BD517CE006E111F /* ViewModel */,
+				3881BE3E2BD517B8006E111F /* View */,
 				38E2BD1B2BD1A86C00494451 /* Apple_FrameworksApp.swift */,
-				38E2BD1D2BD1A86C00494451 /* FrameworkGridView.swift */,
 				38E2BD1F2BD1A86D00494451 /* Assets.xcassets */,
 				38E2BD212BD1A86D00494451 /* Preview Content */,
-				38E2BD292BD1A88F00494451 /* Framework.swift */,
-				38A6700D2BD2EF650053BC54 /* FrameworkDetailView.swift */,
-				3871574D2BD3ED4A00C5D41B /* FrameworkGridViewModel.swift */,
 			);
 			path = "Apple Frameworks";
 			sourceTree = "<group>";
