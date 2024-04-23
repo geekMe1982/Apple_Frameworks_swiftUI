@@ -17,7 +17,5 @@ class FrameworkGridViewModel: ObservableObject {
         }
     }
     
-    
     @Published var isShowingDetailView = false
-    
 }
